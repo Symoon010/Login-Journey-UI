@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4767F07E26F8F2D6008B97CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767F07D26F8F2D6008B97CB /* AppDelegate.swift */; };
+		4767F08026F8F2D6008B97CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767F07F26F8F2D6008B97CB /* SceneDelegate.swift */; };
+		4767F08226F8F2D6008B97CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767F08126F8F2D6008B97CB /* ViewController.swift */; };
+		4767F08526F8F2D6008B97CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4767F08326F8F2D6008B97CB /* Main.storyboard */; };
+		4767F08726F8F2DA008B97CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4767F08626F8F2DA008B97CB /* Assets.xcassets */; };
+		4767F08A26F8F2DA008B97CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4767F08826F8F2DA008B97CB /* LaunchScreen.storyboard */; };
+		4767F09526F8F2DA008B97CB /* MyBanglalinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767F09426F8F2DA008B97CB /* MyBanglalinkUITests.swift */; };
+		4767F0A026F8F2DA008B97CB /* MyBanglalinkUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4767F09F26F8F2DA008B97CB /* MyBanglalinkUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4767F09126F8F2DA008B97CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4767F07226F8F2D6008B97CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4767F07926F8F2D6008B97CB;
+			remoteInfo = MyBanglalinkUI;
+		};
+		4767F09C26F8F2DA008B97CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4767F07226F8F2D6008B97CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4767F07926F8F2D6008B97CB;
+			remoteInfo = MyBanglalinkUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4767F07A26F8F2D6008B97CB /* MyBanglalinkUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBanglalinkUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4767F07D26F8F2D6008B97CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4767F07F26F8F2D6008B97CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4767F08126F8F2D6008B97CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4767F08426F8F2D6008B97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4767F08626F8F2DA008B97CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4767F08926F8F2DA008B97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4767F08B26F8F2DA008B97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4767F09026F8F2DA008B97CB /* MyBanglalinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBanglalinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4767F09426F8F2DA008B97CB /* MyBanglalinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBanglalinkUITests.swift; sourceTree = "<group>"; };
+		4767F09626F8F2DA008B97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4767F09B26F8F2DA008B97CB /* MyBanglalinkUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBanglalinkUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4767F09F26F8F2DA008B97CB /* MyBanglalinkUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBanglalinkUIUITests.swift; sourceTree = "<group>"; };
+		4767F0A126F8F2DA008B97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4767F07726F8F2D6008B97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4767F08D26F8F2DA008B97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4767F09826F8F2DA008B97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4767F07126F8F2D6008B97CB = {
+			isa = PBXGroup;
+			children = (
+				4767F07C26F8F2D6008B97CB /* MyBanglalinkUI */,
+				4767F09326F8F2DA008B97CB /* MyBanglalinkUITests */,
+				4767F09E26F8F2DA008B97CB /* MyBanglalinkUIUITests */,
+				4767F07B26F8F2D6008B97CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4767F07B26F8F2D6008B97CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4767F07A26F8F2D6008B97CB /* MyBanglalinkUI.app */,
+				4767F09026F8F2DA008B97CB /* MyBanglalinkUITests.xctest */,
+				4767F09B26F8F2DA008B97CB /* MyBanglalinkUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4767F07C26F8F2D6008B97CB /* MyBanglalinkUI */ = {
+			isa = PBXGroup;
+			children = (
+				4767F07D26F8F2D6008B97CB /* AppDelegate.swift */,
+				4767F07F26F8F2D6008B97CB /* SceneDelegate.swift */,
+				4767F08126F8F2D6008B97CB /* ViewController.swift */,
+				4767F08326F8F2D6008B97CB /* Main.storyboard */,
+				4767F08626F8F2DA008B97CB /* Assets.xcassets */,
+				4767F08826F8F2DA008B97CB /* LaunchScreen.storyboard */,
+				4767F08B26F8F2DA008B97CB /* Info.plist */,
+			);
+			path = MyBanglalinkUI;
+			sourceTree = "<group>";
+		};
+		4767F09326F8F2DA008B97CB /* MyBanglalinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4767F09426F8F2DA008B97CB /* MyBanglalinkUITests.swift */,
+				4767F09626F8F2DA008B97CB /* Info.plist */,
+			);
+			path = MyBanglalinkUITests;
+			sourceTree = "<group>";
+		};
+		4767F09E26F8F2DA008B97CB /* MyBanglalinkUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4767F09F26F8F2DA008B97CB /* MyBanglalinkUIUITests.swift */,
+				4767F0A126F8F2DA008B97CB /* Info.plist */,
+			);
+			path = MyBanglalinkUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4767F07926F8F2D6008B97CB /* MyBanglalinkUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4767F0A426F8F2DA008B97CB /* Build configuration list for PBXNativeTarget "MyBanglalinkUI" */;
+			buildPhases = (
+				4767F07626F8F2D6008B97CB /* Sources */,
+				4767F07726F8F2D6008B97CB /* Frameworks */,
+				4767F07826F8F2D6008B97CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBanglalinkUI;
+			productName = MyBanglalinkUI;
+			productReference = 4767F07A26F8F2D6008B97CB /* MyBanglalinkUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4767F08F26F8F2DA008B97CB /* MyBanglalinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4767F0A726F8F2DA008B97CB /* Build configuration list for PBXNativeTarget "MyBanglalinkUITests" */;
+			buildPhases = (
+				4767F08C26F8F2DA008B97CB /* Sources */,
+				4767F08D26F8F2DA008B97CB /* Frameworks */,
+				4767F08E26F8F2DA008B97CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4767F09226F8F2DA008B97CB /* PBXTargetDependency */,
+			);
+			name = MyBanglalinkUITests;
+			productName = MyBanglalinkUITests;
+			productReference = 4767F09026F8F2DA008B97CB /* MyBanglalinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4767F09A26F8F2DA008B97CB /* MyBanglalinkUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4767F0AA26F8F2DA008B97CB /* Build configuration list for PBXNativeTarget "MyBanglalinkUIUITests" */;
+			buildPhases = (
+				4767F09726F8F2DA008B97CB /* Sources */,
+				4767F09826F8F2DA008B97CB /* Frameworks */,
+				4767F09926F8F2DA008B97CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4767F09D26F8F2DA008B97CB /* PBXTargetDependency */,
+			);
+			name = MyBanglalinkUIUITests;
+			productName = MyBanglalinkUIUITests;
+			productReference = 4767F09B26F8F2DA008B97CB /* MyBanglalinkUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4767F07226F8F2D6008B97CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4767F07926F8F2D6008B97CB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4767F08F26F8F2DA008B97CB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4767F07926F8F2D6008B97CB;
+					};
+					4767F09A26F8F2DA008B97CB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4767F07926F8F2D6008B97CB;
+					};
+				};
+			};
+			buildConfigurationList = 4767F07526F8F2D6008B97CB /* Build configuration list for PBXProject "MyBanglalinkUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4767F07126F8F2D6008B97CB;
+			productRefGroup = 4767F07B26F8F2D6008B97CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4767F07926F8F2D6008B97CB /* MyBanglalinkUI */,
+				4767F08F26F8F2DA008B97CB /* MyBanglalinkUITests */,
+				4767F09A26F8F2DA008B97CB /* MyBanglalinkUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4767F07826F8F2D6008B97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4767F08A26F8F2DA008B97CB /* LaunchScreen.storyboard in Resources */,
+				4767F08726F8F2DA008B97CB /* Assets.xcassets in Resources */,
+				4767F08526F8F2D6008B97CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4767F08E26F8F2DA008B97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4767F09926F8F2DA008B97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4767F07626F8F2D6008B97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4767F08226F8F2D6008B97CB /* ViewController.swift in Sources */,
+				4767F07E26F8F2D6008B97CB /* AppDelegate.swift in Sources */,
+				4767F08026F8F2D6008B97CB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4767F08C26F8F2DA008B97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4767F09526F8F2DA008B97CB /* MyBanglalinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4767F09726F8F2DA008B97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4767F0A026F8F2DA008B97CB /* MyBanglalinkUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4767F09226F8F2DA008B97CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4767F07926F8F2D6008B97CB /* MyBanglalinkUI */;
+			targetProxy = 4767F09126F8F2DA008B97CB /* PBXContainerItemProxy */;
+		};
+		4767F09D26F8F2DA008B97CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4767F07926F8F2D6008B97CB /* MyBanglalinkUI */;
+			targetProxy = 4767F09C26F8F2DA008B97CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4767F08326F8F2D6008B97CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4767F08426F8F2D6008B97CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4767F08826F8F2DA008B97CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4767F08926F8F2DA008B97CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4767F0A226F8F2DA008B97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4767F0A326F8F2DA008B97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4767F0A526F8F2DA008B97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBanglalinkUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Symoon-Zadid.MyBanglalinkUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4767F0A626F8F2DA008B97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBanglalinkUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Symoon-Zadid.MyBanglalinkUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4767F0A826F8F2DA008B97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBanglalinkUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Symoon-Zadid.MyBanglalinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBanglalinkUI.app/MyBanglalinkUI";
+			};
+			name = Debug;
+		};
+		4767F0A926F8F2DA008B97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBanglalinkUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Symoon-Zadid.MyBanglalinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBanglalinkUI.app/MyBanglalinkUI";
+			};
+			name = Release;
+		};
+		4767F0AB26F8F2DA008B97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBanglalinkUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Symoon-Zadid.MyBanglalinkUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyBanglalinkUI;
+			};
+			name = Debug;
+		};
+		4767F0AC26F8F2DA008B97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBanglalinkUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Symoon-Zadid.MyBanglalinkUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyBanglalinkUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4767F07526F8F2D6008B97CB /* Build configuration list for PBXProject "MyBanglalinkUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4767F0A226F8F2DA008B97CB /* Debug */,
+				4767F0A326F8F2DA008B97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4767F0A426F8F2DA008B97CB /* Build configuration list for PBXNativeTarget "MyBanglalinkUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4767F0A526F8F2DA008B97CB /* Debug */,
+				4767F0A626F8F2DA008B97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4767F0A726F8F2DA008B97CB /* Build configuration list for PBXNativeTarget "MyBanglalinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4767F0A826F8F2DA008B97CB /* Debug */,
+				4767F0A926F8F2DA008B97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4767F0AA26F8F2DA008B97CB /* Build configuration list for PBXNativeTarget "MyBanglalinkUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4767F0AB26F8F2DA008B97CB /* Debug */,
+				4767F0AC26F8F2DA008B97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4767F07226F8F2D6008B97CB /* Project object */;
+}
